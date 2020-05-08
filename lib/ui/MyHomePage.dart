@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:soccerflutter/MyHomePageState.dart';
+
+import 'MyHomePageState.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
