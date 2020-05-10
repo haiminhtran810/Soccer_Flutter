@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:soccerflutter/data/Country.dart';
 import 'ui/MyApp.dart';
 
 // https://flutter.dev/docs/get-started/flutter-for/android-devs
@@ -8,6 +7,8 @@ import 'ui/MyApp.dart';
 // Link : https://allsportsapi.com/soccer-football-api-documentation#Countries
 // BASE_URL = https://allsportsapi.com/
 // https://allsportsapi.com/api/football/?met=Countries&APIkey=!_your_account_APIkey_!
-void main() {
-  runApp(MyApp());
-}
+// UI : https://dribbble.com/search/soccer
+// Codelabs: https://flutter.dev/docs/codelabs
+// Dribbble : https://dribbble.com/shots/7053978-Check-Scores-App
+
+void main() => runApp(MyApp());
