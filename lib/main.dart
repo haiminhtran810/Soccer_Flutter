@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:soccerflutter/Counter.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -29,12 +30,7 @@ class TutorialHome extends StatelessWidget {
       ),
       // body is the majority of the screen.
       body: Center(
-        child: MyButton(),
-      ),
-      floatingActionButton: FloatingActionButton(
-        tooltip: 'Add', // used by assistive technologies
-        child: Icon(Icons.add),
-        onPressed: null,
+        child: Counter(),
       ),
     );
   }
